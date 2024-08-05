@@ -1,3 +1,4 @@
+'use client';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { JobStatus } from '@/utils/types';
 import { Button } from '@/components/ui/button';

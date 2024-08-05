@@ -15,6 +15,7 @@ import {
 
 function authenticateAndRedirect(): string {
   const { userId } = auth();
+  console.log('USER ID:', userId);
 
   if (!userId) {
     redirect('/');
